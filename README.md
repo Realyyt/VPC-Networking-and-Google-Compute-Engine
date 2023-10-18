@@ -27,18 +27,31 @@ bash gcp_network_setup.sh
 The Bash script gcp_network_setup.sh performs the following tasks:
 
 Launch an interactive GCP Cloud Shell session.
+
 View subnets in the default network.
+
 List default routes.
+
 List firewall rules.
+
 Delete default firewall rules.
+
 Delete the default network.
+
 Attempt to create a VM instance without a network (to demonstrate that it will fail).
+
 Create an auto-mode network named "mynetwork."
+
 Create firewall rules for the "mynetwork" to allow SSH, RDP, custom, and ICMP traffic.
+
 Create VM instances in the us-central1 and europe-central2 regions within the "mynetwork."
+
 Run SSH into the "us-central1" VM instance.
+
 Ping the internal and external IP addresses of the "europe-central2" VM instance.
+
 Remove the "allow-icmp" firewall rule.
+
 Run SSH into the "us-central1" VM instance again.
 Ping the internal and external IP addresses of the "europe-central2" VM instance.
 Remove the "allow-custom" firewall rule.
