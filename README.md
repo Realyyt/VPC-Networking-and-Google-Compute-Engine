@@ -53,9 +53,14 @@ Ping the internal and external IP addresses of the "europe-central2" VM instance
 Remove the "allow-icmp" firewall rule.
 
 Run SSH into the "us-central1" VM instance again.
+
 Ping the internal and external IP addresses of the "europe-central2" VM instance.
+
 Remove the "allow-custom" firewall rule.
+
 Run SSH into the "us-central1" VM instance again.
+
 Ping the internal and external IP addresses of the "europe-central2" VM instance.
+
 Remove the "allow-ssh" firewall rule.
 
