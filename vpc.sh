@@ -74,4 +74,5 @@ exit
 #Remove the allow-ssh firewall rule
 gcloud compute firewall-rules delete mynetwork-allow-ssh
 
+#Created by Umaru Emmanuel Isaac
 
